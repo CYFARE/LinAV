@@ -1,14 +1,14 @@
 # Roadmap for LinAV - Next-Gen Antivirus Engine for Linux
 
 ## Introduction
-This document outlines the development roadmap for the next-generation antivirus software for Linux, built using the Rust programming language.
+This document outlines the development roadmap for the next-generation antivirus software for Linux.
 
 ## Phase 1 : Dev : Core Development
 
 ### Tasks:
 
 - [ ] **Implement real-time file scanning**
-  - [ ] **File System Hooks**: Utilize inotify or fanotify to monitor file system events in real-time.
+  - [ ] **File System Hooks**: Monitor file system events in real-time.
   - [ ] **Multi-threading**: Implement multi-threaded scanning to handle multiple files simultaneously.
   - [ ] **File Type Identification**: Use magic numbers and file signatures to identify file types and apply appropriate scanning techniques.
   - [ ] **Performance Optimization**: Implement caching mechanisms and efficient data structures to minimize scanning overhead.
